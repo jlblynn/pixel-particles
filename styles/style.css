@@ -1,0 +1,42 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#canvas1 {
+  position: absolute;
+}
+
+#warpButton {
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
+}
+
+#warpButton:hover {
+  cursor: pointer;
+  background: black;
+  color: white;
+}
+
+.controls {
+  width: 100vw;
+  position: absolute;
+  display: block;
+  z-index: 100;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+img {
+  display: none;
+}
